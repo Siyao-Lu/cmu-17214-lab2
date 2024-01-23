@@ -18,6 +18,6 @@ public class Rectangle implements Shape {
     }
 
     public double getArea() {
-        return height * width;
+        return getSide1() * getSide2();
     }
 }

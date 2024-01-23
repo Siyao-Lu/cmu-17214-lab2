@@ -16,6 +16,6 @@ public class Square implements Shape {
     }
 
     public double getArea() {
-        return sideLen * sideLen;
+        return getSide1() * getSide2();
     }
 }
